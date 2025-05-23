@@ -17,13 +17,24 @@ Average Time: XX.XX hours
 Average Elevation Gain: XX.XX m
 ```
 
-The tool calculates your fitness status based on your training load and activity intensity, giving you insights like:
-- "Fatigued - Consider reducing intensity"
-- "Fit - Maintaining high training load"
-- "Ready - Good balance of volume and intensity"
-- "Fit - Building endurance"
-- "Ready - Good recovery phase"
-- "Fit - Maintaining base fitness"
+The tool calculates your fitness status based on your training load and activity intensity:
+
+1. **Training Load Calculation**
+   - Training Load = Total Distance × Average Time
+   - This metric combines volume (distance) and intensity (time) of your workouts
+
+2. **Fitness Status Categories**
+   - **High Training Load (> 100)**
+     - Long Workouts (> 2 hours): "Fatigued - Consider reducing intensity"
+     - Short Workouts: "Fit - Maintaining high training load"
+   - **Moderate Training Load (50-100)**
+     - Longer Workouts (> 1.5 hours): "Ready - Good balance of volume and intensity"
+     - Shorter Workouts: "Fit - Building endurance"
+   - **Low Training Load (< 50)**
+     - Longer Workouts (> 1 hour): "Ready - Good recovery phase"
+     - Shorter Workouts: "Fit - Maintaining base fitness"
+
+These categories help you understand your current training state and provide guidance on whether you might need more recovery or if you're maintaining a good training balance.
 
 ## Setup
 
