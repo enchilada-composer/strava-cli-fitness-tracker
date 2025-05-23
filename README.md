@@ -1,6 +1,29 @@
 # Strava CLI Fitness Tracker
 
-A Python tool that analyzes your Strava fitness data to help you understand your current fitness level, fatigue status, and training load.
+A command-line tool that provides a quick overview of your Strava fitness data, including:
+
+```text
+=== Weekly Fitness Summary ===
+Total Distance: XX.XX km
+Total Time: XX.XX hours
+Total Elevation Gain: XX.XX m
+Training Load: XX.XX
+
+Fitness Status: [Your Status]
+
+=== Average Per Activity ===
+Average Distance: XX.XX km
+Average Time: XX.XX hours
+Average Elevation Gain: XX.XX m
+```
+
+The tool calculates your fitness status based on your training load and activity intensity, giving you insights like:
+- "Fatigued - Consider reducing intensity"
+- "Fit - Maintaining high training load"
+- "Ready - Good balance of volume and intensity"
+- "Fit - Building endurance"
+- "Ready - Good recovery phase"
+- "Fit - Maintaining base fitness"
 
 ## Setup
 
