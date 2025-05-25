@@ -17,31 +17,13 @@ Average Time: XX.XX hours
 Average Elevation Gain: XX.XX m
 ```
 
-The tool calculates your fitness status based on your training load and activity intensity:
-
-1. **Training Load Calculation**
-   - Training Load = Total Distance × Average Time
-   - This metric combines volume (distance) and intensity (time) of your workouts
-
-2. **Fitness Status Categories**
-   - **High Training Load (> 100)**
-     - Long Workouts (> 2 hours): "Fatigued - Consider reducing intensity"
-     - Short Workouts: "Fit - Maintaining high training load"
-   - **Moderate Training Load (50-100)**
-     - Longer Workouts (> 1.5 hours): "Ready - Good balance of volume and intensity"
-     - Shorter Workouts: "Fit - Building endurance"
-   - **Low Training Load (< 50)**
-     - Longer Workouts (> 1 hour): "Ready - Good recovery phase"
-     - Shorter Workouts: "Fit - Maintaining base fitness"
-
-These categories help you understand your current training state and provide guidance on whether you might need more recovery or if you're maintaining a good training balance.
-
 ## Setup
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/enchilada-composer/strava-cli-fitness-tracker.git
 cd strava-cli-fitness-tracker
+mv .env.example .env
 ```
 
 2. Create a virtual environment:
@@ -66,7 +48,8 @@ pip install -r requirements.txt
    - Click "Register" or "Save"
    - Note down your Client ID and Client Secret
 
-5. Create a `.env` file with your credentials:
+5. Update the `.env` file with your credentials:
+
 ```
 STRAVA_CLIENT_ID=your_client_id
 STRAVA_CLIENT_SECRET=your_client_secret
