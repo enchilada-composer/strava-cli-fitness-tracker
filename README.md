@@ -73,7 +73,7 @@ STRAVA_CLIENT_SECRET=your_client_secret
 
 Run the script:
 ```bash
-python strava_fitness.py
+python3 strava_fitness.py
 ```
 
 The script will output:
