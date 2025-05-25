@@ -107,4 +107,4 @@ The script will output:
 
 ## License
 
-MIT License - feel free to use this tool for personal or commercial
+MIT License - feel free to use this tool for personal or commercial purposes
