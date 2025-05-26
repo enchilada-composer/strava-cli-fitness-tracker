@@ -5,16 +5,22 @@ A command-line tool that provides a quick overview of your Strava fitness data, 
 ```text
 === Weekly Fitness Summary ===
 Total Distance: XX.XX km
-Total Time: XX.XX hours
-Total Elevation Gain: XX.XX m
-Training Load: XX.XX
+Total Time: XX minutes
 
 Fitness Status: [Your Status]
+Training Load: XX.XX km/day
 
-=== Average Per Activity ===
+=== Weekly Average ===
 Average Distance: XX.XX km
-Average Time: XX.XX hours
+Average Time: XX minutes
 Average Elevation Gain: XX.XX m
+Number of Activities: X
+
+=== All-Time Average ===
+Average Distance: XX.XX km
+Average Time: XX minutes
+Average Elevation Gain: XX.XX m
+Total Activities: X
 ```
 
 ## Setup
